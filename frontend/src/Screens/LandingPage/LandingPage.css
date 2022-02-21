@@ -1,0 +1,55 @@
+.main{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../../background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.intro-text{
+    width: 100%;
+    text-align: center;
+}
+
+.title{
+    font-size: 95px;
+}
+
+.sub-title{
+    font-size: 30px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.landing-btn{
+    height: 55px;
+    width: 200px;
+}
+
+@media only screen and (min-width:1200px) {
+    .title{
+        padding: 0px 120px;
+    }
+
+    .buttons{
+        padding: 0px 200px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .title{
+        font-size:60px ;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .landing-btn{
+        height: 50px;
+        width: 170px;
+    }
+}
