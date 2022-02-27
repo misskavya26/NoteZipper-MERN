@@ -1,7 +1,7 @@
 {
   "name": "notezipper-mern",
   "version": "1.0.0",
-  "description": "",
+  "description": "Notes taking app with user login and register feature",
   "main": "server.js",
   "scripts": {
     "start": "nodemon backend/server",
