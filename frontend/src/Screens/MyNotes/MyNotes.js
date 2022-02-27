@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './mynotes.css';
 import { Accordion, Badge, Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import MainScreen from '../../components/MainScreen/MainScreen';
@@ -49,7 +50,7 @@ const MyNotes = () => {
         <>
             <MainScreen title={`Welcome ${userInfo && userInfo.name}`}>
                 <Link to="/createnote">
-                    <Button style={{ marginBottom: 13 }} size="lg">Create new note</Button>
+                    <Button style={{ marginBottom: 13 }} size="lg" className='button-create'>Create new note</Button>
                 </Link>
 
                 {loading && <Loading size={150} />}
